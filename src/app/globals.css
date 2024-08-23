@@ -2,32 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-padding-top: 120px; /* height of your navbar */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* hamburger */
+.open span:nth-child(1) {
+  transform: rotate(45deg) translate(6.5px, 6.5px);
+}
+
+.open span:nth-child(2) {
+  width: 0;
+  opacity: 0;
+}
+
+.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6.5px, -6.5px);
+}
+
+.active-link {
+  text-decoration-line: underline;
+  color: #05408c;
+  transition: all 0.5s ease-in-out;
+}
+
+.transparent-bg {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.bg-blur {
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
+  transform: translateZ(0);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  background: hsla(0, 0%, 100%, 0.8);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.animation-container {
+  /* Ganti selector "animation-container" sesuai dengan elemen HTML yang ingin Anda animasikan */
+  width: 100%; /* Sesuaikan lebar elemen container sesuai kebutuhan */
+  overflow: hidden; /* Agar elemen yang bergerak tidak terlihat di luar container */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.ticker-element {
+  /* Ganti selector "ticker-element" sesuai dengan elemen HTML yang ingin Anda animasikan */
+  animation: ticker 300s linear infinite;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }

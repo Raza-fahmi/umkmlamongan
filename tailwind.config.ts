@@ -7,11 +7,25 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      'Jakarta':["Plus Jakarta Sans", "sans-serif"],
+      'Poppins':["Poppins", "sans-serif"]
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      extend: {
+        zIndex: {
+          'navbar': '50', // Custom z-index value for navbar
+          'card': '10', // Custom z-index value for card
+        }
+      },
+      backgroundImage:{
+        'hero': "url('/hero.png')",
+      },
+      colors: {
+        'primary': '#ecfdfb',
+        'secoundaty': '#14324d',
+        'tertiary':'#69dade',
+        'quaternary':'#217065',
       },
     },
   },
