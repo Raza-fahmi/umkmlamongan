@@ -10,7 +10,7 @@ const produk = [
     judul: "Rengginang dan Keripik Singkong",
     pemilik: "Ibu Muksonah",
     alamat: "RT 02 RW 02 LAMONGAN, PURBALINGGA",
-    gambar: "/keripik singkong.jpeg",
+    gambar: "/kerupuk.jpeg",
     link: "/produk/keripik",
   },
   {

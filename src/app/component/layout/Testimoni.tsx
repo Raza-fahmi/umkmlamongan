@@ -12,7 +12,7 @@ const review = [
     rating: 5,
     comment:
       "Produk dari UMKM Desa Lamongan benar-benar luar biasa. Kualitasnya sangat baik dan harga yang ditawarkan sangat terjangkau.",
-    created_at: "Pengrajin Bank Sampah",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -30,7 +30,7 @@ const review = [
     rating: 5,
     comment:
       "Saya sangat puas dengan produk UMKM Desa Lamongan. Rasanya enak dan pengemasannya juga sangat baik.",
-    created_at: "Dimas Andrean",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -39,7 +39,7 @@ const review = [
     rating: 4.5,
     comment:
       "Produk dari UMKM Desa Lamongan sangat berkualitas dan sesuai dengan harapan. Saya sangat merekomendasikan produk mereka.",
-    created_at: "Finka Setya Wibawa",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -48,7 +48,7 @@ const review = [
     rating: 4.5,
     comment:
       "Pengalaman belanja di UMKM Desa Lamongan sangat menyenangkan. Produk-produk mereka memuaskan dan pelayanannya cepat.",
-    created_at: "Rahma Sri Endah Mahesti",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -57,7 +57,7 @@ const review = [
     rating: 5,
     comment:
       "Saya sangat senang dengan produk yang saya beli dari UMKM Desa Lamongan. Kualitasnya sangat baik dan harga yang ditawarkan sangat bersaing.",
-    created_at: "Zahra Salsabila",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -66,7 +66,7 @@ const review = [
     rating: 5,
     comment:
       "Produk UMKM Desa Lamongan sangat memuaskan. Saya akan terus membeli produk mereka dan merekomendasikannya kepada teman-teman.",
-    created_at: "Hani Muhayah",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -75,7 +75,7 @@ const review = [
     rating: 5,
     comment:
       "Belanja di UMKM Desa Lamongan adalah pengalaman yang menyenangkan. Produk-produk mereka berkualitas dan pelayanan sangat baik.",
-    created_at: "Anjelita Susanto",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
   {
@@ -84,7 +84,7 @@ const review = [
     rating: 5,
     comment:
       "Produk UMKM Desa Lamongan sangat memuaskan dan sesuai dengan harapan. Proses pembelian juga sangat mudah dan cepat.",
-    created_at: "Rizky Putri Retno Winayu",
+    created_at: "KKN UMP Desa Lamongan",
     image: Avatar,
   },
 ];

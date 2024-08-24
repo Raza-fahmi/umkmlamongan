@@ -33,8 +33,8 @@ export default function Page() {
               dengan bumbu tabur kami!
             </p>
             <Link
-              href={`https://wa.me/6281226831649?text=${encodeURIComponent(
-                "Hallo, saya tertarik untuk mengetahui lebih lanjut tentang produk UMKM Lamongan. Apakah bisa dibantu?"
+              href={`https://wa.me/6289508926250?text=${encodeURIComponent(
+                "Halo! Saya tertarik untuk memesan Bawang Goreng. Bisa dibantu untuk pemesanan saya? Terima kasih!"
               )}`}
             >
               <button className="flex gap-2 w-fit items-center justify-center mx-auto px-4 py-2 bg-transparent text-quaternary border-2 border-quaternary rounded-full shadow-lg hover:bg-quaternary hover:text-white transition ease-in-out duration-300">

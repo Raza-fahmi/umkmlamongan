@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -12,9 +13,11 @@ export default function Hero() {
           Menggoyang Lidah Anda!
         </p>
         <div className="flex justify-center">
-          <button className="bg-quaternary text-white w-40 h-10 text-base font-bold rounded-md">
-            Lihat Produk
-          </button>
+          <Link href="#produk">
+            <button className="bg-quaternary text-white w-40 h-10 text-base font-bold rounded-md">
+              Lihat Produk
+            </button>
+          </Link>
         </div>
       </div>
     </div>

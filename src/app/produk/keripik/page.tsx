@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import keripik from "../../../../public/keripik singkong.jpeg";
+import keripik from "../../../../public/kerupuk.jpeg";
 import rengginang from "../../../../public/rengginang.jpg";
 import Link from "next/link";
 
@@ -39,7 +39,7 @@ export default function Page() {
           {/* Keripik Singkong Section */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-8 lg:mb-0">
             <h2 className="text-2xl font-semibold p-6 text-center text-gray-900">
-              Keripik Singkong
+              Kerupuk Singkong
             </h2>
             <div className="flex justify-center p-6">
               <Image
@@ -63,8 +63,8 @@ export default function Page() {
           {" "}
           {/* Added margin-top for spacing */}
           <Link
-            href={`https://wa.me/6281226831649?text=${encodeURIComponent(
-              "Hallo, saya tertarik untuk mengetahui lebih lanjut tentang produk UMKM Lamongan. Apakah bisa dibantu?"
+            href={`https://wa.me/62895322351415?text=${encodeURIComponent(
+              "Halo! Saya ingin memesan Kerupuk dan Rengginang Bu Son. Bisa dibantu untuk pemesanan saya? Terima kasih!"
             )}`}
           >
             <button className="flex gap-2 w-fit items-center justify-center px-4 py-2 bg-transparent text-quaternary border-2 border-quaternary rounded-full shadow-lg hover:bg-quaternary hover:text-white transition ease-in-out duration-300">

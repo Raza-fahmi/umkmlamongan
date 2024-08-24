@@ -23,19 +23,16 @@ export default function Footer() {
         {/* Links Section */}
         <div className="flex flex-col gap-4 lg:w-1/3">
           <h2 className="text-lg font-semibold">Link</h2>
-          <Link href="/Kebijakan-Privasi" className="text-sm hover:underline">
+          <Link href="/" className="text-sm hover:underline">
             Tentang
           </Link>
-          <Link
-            href="/Syarat-dan-Ketentuan"
-            className="text-sm hover:underline"
-          >
+          <Link href="#produk" className="text-sm hover:underline">
             Produk
           </Link>
         </div>
 
         {/* Social Media Section */}
-        <div className="flex flex-col gap-4 lg:w-1/3">
+        {/* <div className="flex flex-col gap-4 lg:w-1/3">
           <h2 className="text-lg font-semibold">Sosial Media</h2>
           <div className="flex space-x-4">
             <a
@@ -57,18 +54,13 @@ export default function Footer() {
               </div>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Contact Information */}
       <div className="text-center mt-8 border-t border-gray-200 pt-4">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} UMKM Lamongan. All rights reserved.
-        </p>
-        <p className="text-sm">
-          <Link href="/contact" className="text-blue-500 hover:underline">
-            Hubungi Kami
-          </Link>
         </p>
       </div>
     </footer>

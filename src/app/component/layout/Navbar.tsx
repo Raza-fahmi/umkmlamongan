@@ -36,11 +36,11 @@ export default function Navbar() {
         </div>
 
         {/* Kontak di sisi kanan */}
-        <div className="hidden md:flex justify-end items-center">
+        {/* <div className="hidden md:flex justify-end items-center">
           <Link href="/" className="text-[#a3a3a3] text-lg">
             Kontak
           </Link>
-        </div>
+        </div> */}
 
         {/* Tombol menu untuk mobile */}
         <button
@@ -103,13 +103,13 @@ export default function Navbar() {
           >
             Testimoni
           </Link>
-          <Link
+          {/* <Link
             href="#testimoni"
             className="text-[#a3a3a3] text-lg"
             onClick={toggleMobileMenu}
           >
             Kontak
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>
