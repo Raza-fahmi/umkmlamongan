@@ -1,3 +1,33 @@
+# UMKM Lamongan Landing Page
+
+A responsive landing page built to promote local SME products in Desa Lamongan, Kecamatan Kaligondang, Kabupaten Purbalingga.  
+This project was developed as part of a **KKN (Community Service Program)** to help the local community increase visibility and sales through a simple, mobile-friendly website.
+
+## 🚀 Features
+- **Product Showcase:** Displays products such as rengginang, keripik singkong, risol, and fried onions.
+- **Mobile-First Design:** Ensures accessibility and usability on all devices.
+- **Direct Contact Integration:** WhatsApp API link for quick orders and communication.
+- **Community Collaboration:** Requirements gathered from village officials and SME owners.
+
+## 🛠 Tech Stack
+- React.js
+- Tailwind CSS
+- Vite
+- GitHub Pages / Netlify (for deployment)
+
+## 📸 Screenshots
+_Add 2–3 screenshots here (homepage, product section, mobile view)_
+
+## 🧠 Lessons Learned
+- Collaborated with community stakeholders to gather requirements.
+- Practiced mobile-first design and responsive layout techniques.
+- Learned to build a real-world solution with social and economic impact.
+
+## 🔗 Live Demo & Source Code
+- **Live Demo:** umkmdesalamongan.vercel.app
+- **Repository:** This repo
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
